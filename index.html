@@ -31,46 +31,52 @@
 
 <body>
     <!-- Sección del Menú Nav  -->
-    <section class="menu">
-        <header class="menuHeader">
-            <img src="assets\vector.png" class="menuLogo">
-            <h3 class="menuTitle">Sebastián Gallego</h3>
-        </header>
-        <nav class="menuNav">
-            <ul class="menuList">
-                <li class="menuListItem"><a href="#sobreMi">Sobre mi</a></li>
-                <li class="menuListItem"><a href="#skills">Skills</a></li>
-                <li class="menuListItem"><a href="#hobbies">Hobbies</a></li>
-                <li class="menuListItem"><a href="#formacion">Formación</a></li>
-                <li class="menuListItem"><a href="#xp">Proyectos</a></li>
-                <li class="menuListItem"><a href="#contacto">sebastian.gallego@gmail.com</a></li>
-            </ul>
-        </nav>
+    <section class="sectioMenu row ">
+        <div class="col-4 justify-content-start">
+            <header class="menuHeader ">
+                <img src="assets\vector.png" class="menuLogo">
+                <h3 class="menuTitle">Sebastián Gallego</h3>
+            </header>
+
+        </div>
+        <div class="col-8 ">
+            <nav class="menuNav col-8 justify-content-end">
+                <ul class="menuList">
+                    <li class="menuListItem"><a href="#sobreMi">Sobre mi</a></li>
+                    <li class="menuListItem"><a href="#skills">Skills</a></li>
+                    <li class="menuListItem"><a href="#hobbies">Hobbies</a></li>
+                    <li class="menuListItem"><a href="#formacion">Formación</a></li>
+                    <li class="menuListItem"><a href="#xp">Proyectos</a></li>
+                    <li class="menuListItem"><a href="#contacto">sebastian.gallego@gmail.com</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
     </section>
 
 
 
 
     <!-- Sección Hero -->
-    <section class="heroTitulo">
-        <div class="containerTitulo">
-            <img class="title__profile" src="assets\profile.png">
-            <div class="title__container">
-                <h2 class="title__bio">Hola
-                    <br> Soy Sebastián Gallego
-                    <br> Desarrollador web
-                </h2>
-                <h3 class="title__subsection">Me formé en la Universidad de Quilmes y en la Universidad de Tres de
-                    Febrero, actualmente
-                    estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
-                <ul class="title__network">
-                    <li class="title__network__item"><a href="">Github <i class="fa-brands fa-github"></i> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <i class="fa-brands fa-linkedin"></i></a></li>
-                    <li class="title__network__item"><a href="">Instagram <i class="fa-brands fa-instagram"></i></li>
-                    <li class="title__network__item"><a href="">Curriculum <i class="fa-solid fa-file-pdf"></i></li>
-                    </li>
+    <section class="sectionHero row justify-content-center d-flex">
+        <div class="heroContainerBiografia col-4 text-start justify-content-center">
+            <h2 class="heroTitulo">Hola Soy Sebastián Gallego - Desarrollador web
+            </h2>
+            <h3 class="heroSubstitulo"">Me formé en la Universidad de Quilmes y en la Universidad de Tres de
+                Febrero. <br>
+                Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
+            </h3>
+            <ul class=" heroRedes row justify-content-center">
+                <li class="heroRedesItem col-2"><a href="">Github <i class="fa-brands fa-github "></i> </a></li>
+                <li class="heroRedesItem col-2"><a href="">Linkedin <i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="heroRedesItem col-2"><a href="">Instagram <i class="fa-brands fa-instagram "></i></a></li>
+                <li class="heroRedesItem col-2"><a href="">Curriculum <i class="fa-solid fa-file-pdf "></i></a></li>
                 </ul>
-            </div>
+        </div>
+        <div class="imagen col-4 justify-content-center text-start">
+            <img class="heroProfile " src="assets\profile.jpg">
+        </div>
         </div>
     </section>
 

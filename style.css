@@ -65,9 +65,23 @@ a{
 
 /*Sección Hero*/
 
-section.title{
+.heroProfile{
+    height: 368px;
+    border-radius: 50%;
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*Sección About*/
 
