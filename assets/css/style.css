@@ -84,6 +84,7 @@ a{
 .sectionHero {
     background-color: var(--corlorFondoCarbono);
     color: var(--colorTexto);
+   
     
 }
 
@@ -108,17 +109,15 @@ a{
 
 
 .heroRedesItem {
-    justify-content:  center;
+    width: 200px;
     font-size: 1.5rem;;
-    color: var(colorTexto);
+    color: var(--colorTexto);
     border: 2px solid var(--colorBotones);
     background-color:  var(--colorBotones);
     padding: 5px 5px;
-    margin: 5px;
- 
+    margin: 15px;
     border-radius: 5px;
-    display: flex;
-    gap: 5px;
+   
 
 }
 
@@ -190,7 +189,9 @@ a{
     color: var(--colorBotones);
     text-align: center;
     font-size: 2.8rem;
+    padding: 10px;
 }
+
 
 .skillsName {
     color: var(--colorTextoClaro);
@@ -220,7 +221,7 @@ a{
 
 .hobbiesBox {
     height: 174px;
-     width: 250px;
+     width: 300px;
 }
 
 .hobbiesContainer {
@@ -234,6 +235,7 @@ a{
     color: var(--colorBotones);
     text-align: center;
     font-size: 2.8rem;
+    padding: 10px;
 }
 
 .hobbiesName {
@@ -244,15 +246,48 @@ a{
 
 /* Experiencia Académica*/
 
-section.academic{
 
+.sectionFormacion {
+    background-color: var(--colorFondoPlomo);
 }
+
+
+.formacionTitulo {
+    color: var(--colorBotones);
+    font-size: 2.8rem;
+    
+}
+
+.card {
+    width: 30rem;
+}
+
+
+
+.cardTitle {
+    font-size: 1.6rem;;
+    font-weight: bold;
+  }
+  
+
+.cardText {
+  font-size: 1.3rem;;
+  font-weight: bold;
+}
+
+
+
 
 /* experiencia*/
 
 section.experience{
 
 }
+
+
+
+
+
 
 /*Contacto*/
 
