@@ -207,7 +207,6 @@ a{
    
 }
 
-
 .hobbiesTitulo {
     color: var(--colorBotones);
     font-size: 2.8rem;
@@ -244,8 +243,7 @@ a{
     font-size: 2rem;
 }
 
-/* Experiencia Académica*/
-
+/* Formación Académica*/
 
 .sectionFormacion {
     background-color: var(--colorFondoPlomo);
@@ -261,7 +259,6 @@ a{
 .card {
     width: 30rem;
 }
-
 
 
 .cardTitle {
@@ -280,10 +277,46 @@ a{
 
 /* experiencia*/
 
-section.experience{
-
+.seccionXp {
+    background-color: var(--corlorFondoCarbono);
 }
 
+.xpSeccionTitulo {
+    color: var(--colorBotones);
+    font-size: 2.8rem;
+}
+
+
+.xpImage {
+    width: 680px;
+    height: 480px;
+}
+
+.xpTitulo {
+    color: var(--colorBotones);
+    font-size: 2rem;
+}
+
+
+.expBtnRepositorio {
+    font-size: 1.2rem;
+    background-color:var(--colorFondoNegro);
+    color: var(--colorTextoClaro);
+    padding: 15px ;
+    border-radius: 5px;
+    margin: 1rem;
+    border: 2px solid var(--colorBotones);
+}
+
+.xpBtnDemo {
+    font-size: 1.2rem;
+    background-color:var(--colorBotones);
+    color: var(--colorTexto);
+    padding: 15px ;
+    border-radius: 5px;
+    margin: 1rem;
+    border: 2px solid var(--colorFondoNegro);
+}
 
 
 
