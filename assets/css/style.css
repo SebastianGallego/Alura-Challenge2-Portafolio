@@ -341,10 +341,15 @@ a {
   padding: 20px;
 }
 
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
+/*Responsive */
 /*Escritorio*/
+
+@media (min-width: 1200px) {
+  .menuList > li > a {
+    color: var(--colorBotones);
+    display: flex;
+  }
+}
 
 @media (max-width: 1200px) {
   .menuList {
