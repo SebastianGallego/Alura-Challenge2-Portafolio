@@ -27,6 +27,9 @@
     <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 
+    <script defer src="./assets/js/validacion.js"></script>
+
+
 </head>
 
 <body>
@@ -57,12 +60,12 @@
 
     <!-- Sección Hero -->
     <section class="sectionHero  ">
-        <div class="container d-flex  p-4">
+        <div class="containerHero container d-flex  p-4">
 
             <div class="heroContainerBiografia col-9 text-start justify-content-center">
                 <h2 class="heroTitulo">Hola, Soy Sebastián Gallego - Desarrollador web
                 </h2>
-                <h3 class="heroSubstitulo"">Me formé en la Universidad de Quilmes y en la Universidad de Tres de
+                <h3 class="heroSubTitulo"">Me formé en la Universidad de Quilmes y en la Universidad de Tres de
                 Febrero. <br>
                 Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
             </h3>
@@ -76,10 +79,8 @@
                     <li class="heroRedesItem col-2"><a href="">Curriculum <i class="fa-solid fa-file-pdf "></i></a></li>
                     </ul>
             </div>
-            <div class="imagen col-3 justify-content-center text-start p-3">
-                <img class="heroProfile " src="assets\images\profile.jpg">
-            </div>
-        </div>
+            <img class="heroProfile " src="assets\images\profile.jpg">
+
         </div>
     </section>
 
@@ -89,7 +90,7 @@
     <section class="sectionAbout" id="sobreMi">
         <div class="aboutContainer">
             <h3 class="aboutTitulo">Sobre mi</h3>
-            <p class="aboutParrafo">¡Hola! Soy Sebastián Gallego, tengo 45 años, vivo en Argentina, soy
+            <p class="aboutParrafo">¡Hola! Soy Sebastián Gallego, tengo 45 años, vivo en Argentina.
 
             <p class="aboutParrafo">Soy un profesional apasionado por la tecnología y las tareas manuales. Mi formación
                 como Técnico Electromecánico y mis años de estudiante de Ingeniería me han proporcionado una base sólida
@@ -282,15 +283,15 @@
 
     <!-- Sección de Experiencia Profesional/Proyectos-->
     <section class="seccionXp" id="xp">
-        <h2 class="xpSeccionTitulo  text-center p-5">Experiencia Profesional</h2>
+        <h2 class="xpSeccionTitulo  text-center p-3">Experiencia Profesional</h2>
         <div class="xpContainer flex-column text-center">
 
-            <div class="xpBoxContainer d-flex justify-content-center">
+            <div class="xpBoxContainer d-flex justify-content-center" id="xpBox1">
                 <img class="xpImage m-3" src="assets/images/encriptador.png">
                 <div class="xpInfoContainer">
-                    <h2 class="xpTitulo text-center mt-5">Encriptador de texto</h2>
-                    <h3 class="xpTexto text-center mt-5">Challenge Oracle </h3>
-                    <div class="xpDescripcion mt-5">
+                    <h2 class="xpTitulo text-center ">Encriptador de texto</h2>
+                    <h3 class="xpTexto text-center ">Challenge Oracle </h3>
+                    <div class="xpDescripcion ">
                         <span class="xpRepositorio">
                             <a href="https://github.com/SebastianGallego/challengeEncriptador" class="expBtnRepositorio"
                                 target="_blank">Repositorio <i class="fa-brands fa-github"></i></a>
@@ -303,12 +304,12 @@
                 </div>
             </div>
 
-            <div class="xpBoxContainer d-flex justify-content-center flex-row-reverse ">
+            <div class="xpBoxContainer d-flex justify-content-center flex-row-reverse " id="xpBox2">
                 <img class="xpImage mb-3" src="assets/images/barberia.png">
                 <div class="xpInfoContainer">
-                    <h2 class="xpTitulo mt-5">Barberia</h2>
-                    <h3 class="xpTexto mt-5">TP Alura </h3>
-                    <div class="xpDescripcion mt-5">
+                    <h2 class="xpTitulo mt-3">Barberia</h2>
+                    <h3 class="xpTexto mt-3">TP Alura </h3>
+                    <div class="xpDescripcion mt-4">
                         <span class="xpRepositorio">
                             <a href="https://github.com/SebastianGallego/barberia.github.io" target="_blank"
                                 class="expBtnRepositorio">Repositorio <i class="fa-brands fa-github"></i></a>
@@ -322,12 +323,12 @@
             </div>
         </div>
 
-        <div class="xpBoxContainer d-flex justify-content-center">
+        <div class="xpBoxContainer d-flex justify-content-center" id="xpBox3">
             <img class="xpImage mb-3" src="assets/images/ejemplosJs.png">
             <div class="xpInfoContainer">
-                <h2 class="xpTitulo text-center mt-5">Ejemplos con Javascript</h2>
-                <h3 class="xpTexto text-center mt-5">Trabajo Práctico</h3>
-                <div class="xpDescripcion mt-5">
+                <h2 class="xpTitulo text-center mt-3">Ejemplos con Javascript</h2>
+                <h3 class="xpTexto text-center mt-3">Trabajo Práctico</h3>
+                <div class="xpDescripcion ">
                     <span class="xpRepositorio">
                         <a href="https://github.com/SebastianGallego/Ejemplo-Js" target="_blank"
                             class="expBtnRepositorio">Repositorio
@@ -341,12 +342,12 @@
             </div>
         </div>
 
-        <div class="xpBoxContainer d-flex justify-content-center flex-row-reverse ">
+        <div class="xpBoxContainer d-flex justify-content-center flex-row-reverse " id="xpBox4">
             <img class="xpImage mb-3" src="assets/images/horca1.png">
             <div class="xpInfoContainer">
-                <h2 class="xpTitulo text-center mt-5">Juego de la Horca</h2>
-                <h3 class="xpTexto text-center mt-5">TP Alura </h3>
-                <div class="xpDescripcion mt-5">
+                <h2 class="xpTitulo text-center mt-3">Juego de la Horca</h2>
+                <h3 class="xpTexto text-center mt-3">TP Alura </h3>
+                <div class="xpDescripcion mt-4">
                     <span class="xpRepositorio">
                         <a href="" class="expBtnRepositorio">Repositorio <i class="fa-brands fa-github"></i></a>
                     </span>
@@ -362,8 +363,8 @@
 
 
     <!-- Sección de Contacto -->
-    <section class="seccionContato" id="contacto">
-        <div class="contactoContainer">
+    <section class="seccionContacto d-flex justify-content-center" id="contacto">
+        <div class="contactoContainer d-flex text-center">
             <div class="contactoContainerImagen">
                 <img class="contactoImagen" src="assets/images/contact_image.png">
             </div>
@@ -372,30 +373,32 @@
                 <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                 <form class="formcontato__form" name="form" method="post">
                     <div>
-                        <input class="formcontato__input" id="nombre" type="text" name="nombre"
-                            onkeyup="validateInput('nombre')" onblur="validateInput('nombre')" placeholder="Nombre"
-                            maxlength="50" required>
-                        <span id="errorMessagenombre" style="color: red;"></span>
+                        <input class="inputContactoNombre" id="idNombre" type="text" name="nombre"
+                            onkeyup="validateInput('idNombre')" onblur="validateInput('idNombre')" placeholder="Nombre"
+                            maxlength="50" required><br>
+                        <span id="errorMensajeidNombre" style="color: red;"></span>
                     </div>
                     <div>
-                        <input class="formcontato__input" id="email" type="email" name="email"
-                            onkeyup="validateInput('email')" onblur="validateInput('email')" placeholder="E-mail"
-                            required>
-                        <span id="errorMessageemail" style="color: red;"></span>
+                        <input class="inputContactoEmail" id="idEmail" type="email" name="email"
+                            onkeyup="validateInput('idEmail')" onblur="validateInput('idEmail')" placeholder="E-mail"
+                            required><br>
+                        <span id="errorMensajeidEmail" style="color: red;"></span>
                     </div>
                     <div>
-                        <input class="formcontato__input" id="asunto" type="text" name="asunto"
-                            onkeyup="validateInput('asunto')" onblur="validateInput('asunto')" maxlength="50"
-                            placeholder="Assunto" required>
-                        <span id="errorMessageasunto" style="color: red;"></span>
+                        <input class="inputContactoAsunto" id="idAsunto" type="text" name="asunto"
+                            onkeyup="validateInput('idAsunto')" onblur="validateInput('idAsunto')" maxlength="50"
+                            placeholder="Asunto" required><br>
+                        <span id="errorMensajeidAsunto" style="color: red;"></span>
                     </div>
                     <div>
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                            placeholder="Mensaje" onkeyup="validateInput('mensagem')" onblur="validateInput('mensagem')"
-                            maxlength="300" required></textarea>
-                        <span id="errorMessagemensagem" style="color: red;"></span>
+                        <textarea class="inputContactoMensaje" rows="5" cols="40" id="idMensaje" name="mensaje"
+                            placeholder="Mensaje" onkeyup="validateInput('idMensaje')"
+                            onblur="validateInput('idMensaje')" maxlength="300" required></textarea>
+
+                        <br>
+                        <span id="errorMensajeidMensaje" style="color: red;"></span>
                     </div>
-                    <button type="submit" id="boton__mensaje" class="formcontato__botao" disabled>Enviar
+                    <button type="submit" id="btnEnviar" class="btnEnviar" disabled>Enviar
                         mensaje</button>
                 </form>
             </div>
@@ -404,12 +407,13 @@
 
     <!-- Sección de Footer -->
     <section class="footer">
-        <div class="footer__rodape">
+        <div class="footerAutor text-center">
             <p>Sebastián Gallego</p>
-            <p>2023</p>
+            <p>© 2023</p>
         </div>
     </section>
     </div>
+
     <!-- Script del documento JavaScript -->
     <script src="assets/js/validacion.js"></script>
 </body>
